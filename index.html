@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h1>Парикмахерская Стиль </h1>
+      <nav>
+        <ul>
+		  <li><a href="#Главная">Главная</a></li>
+          <li><a href="#О нас">О нас</a></li>
+          <li><a href="#Услуги">Услуги</a></li>
+		  <li><a href="#Товары">Товары</a></li>
+		   <li><a href="#Подарок">Подарок</a></li>
+          <li><a href="#Запись">Запись</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+	<section id="Главная"></section>
+      <h2>Добро пожаловать в парикмахерскую Стиль</h2>
+      <p>У нас вы можете постричься и насладиться изысканными музыкой и напитками в уютной атмосфере.</p>
+    </section> 
+    <section class="about">
+	<section id="О нас"></section>
+      <h3>О нас</h3>
+      <p>Парикмахерская "Стиль" - это современное и стильное место, где вы можете получить качественные услуги по уходу за волосами. Наш коллектив состоит из опытных и талантливых парикмахеров, которые следят за последними тенденциями и новинками в индустрии красоты.
+
+Мы предлагаем широкий спектр услуг, включая стрижки любой сложности и длины волос, окрашивание, укладку, наращивание волос и другие процедуры. Мы используем только профессиональные средства для ухода за волосами ведущих брендов, чтобы обеспечить максимальный эффект и уход за волосами.
+
+Помимо этого, мы предоставляем индивидуальный подход к каждому клиенту, помогаем выбрать наиболее подходящую стрижку и цвет, учитывая особенности лица и тип волос. В парикмахерской "Стиль" вы всегда найдете приятную атмосферу, профессиональный сервис и высокое качество услуг.
+	<section class="menu">
+    <div id="slider">
+      <img src="img1.jpg" class="active"/>
+      <img src="img2.jpg"/>
+      <img src="img3.jpg"/>
+      <img src="img4.jpg"/>
+      <img src="img5.jpg"/>
+      <img src="img6.jpg"/>
+    </div>
+    
+		<section id="Услуги"></section>
+      <h3>Услуги</h3>
+      <ul>
+        <li>Мужская стрижка-1200 руб.</li> 
+        <li>Корекция бороды-900руб.</li>
+        <li>Стрижка+борода-1900 руб.</li>
+        <li>Стрижка под машинку-800 руб.</li>
+        <li>Мытье головы-200 руб.</li>
+        <li>Депиляция воском-400 руб.</li>
+      </ul> 
+	  <section id="Товары"></section>
+	  <h3>Товары</h3>
+      <ul>
+	   <li>Муской шампунь Morgans-1800 руб.</li>
+        <li>Помада Morgans-1200 руб.</li>
+        <li>Гель для волоc Morgans-1200 руб.</li>
+        <li>Лосьен после бритья Morgans-800 руб.</li>
+        <li>Мыло для бритья Morgans-2000 руб.</li>
+        <li>Опасная бритва Morgans-6000 руб.</li>
+      </ul>
+    </section>
+  <section class="reservation">
+  <section id="Подарок"></section>
+  <button id="promo-button"><a>
+    <img src="chernaja-podarochnaja-korobka.png" alt="Подарок" style="height: 150px;" >
+  </a></button>
+	<div id="promo-popup">
+  <h3>Скидка 20% на любую стрижку</h3>
+  <p>Скидка действует до конца месяца.</p>
+  <button id="close-promo">Закрыть</button>
+</div>
+<section id="Запись"></section>
+<h3>Запись</h3>
+<p>Вы можете записаться на стрижку, позвонив нам по телефону +7922-789-3665 или заполнив форму ниже:</p>
+  <form>
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="date">Дата:</label>
+    <input type="date" id="date" name="date">
+    <label for="time">Время:</label>
+    <input type="time" id="time" name="time">
+    <input type="submit" value="Записаться">
+  </form>
+  <p id="reservation-info"></p>
+</section>
+
+<footer>
+ <div class="footer__iteam-text">
+  <a href="./about.html">Отзывы</a>
+  <a href="./cyeta.html">Вакансии</a>
+  <a href="./cay.html">Сотрудники</a>
+</div> 
+ <div class="footer__iteam-contact"><p>Телефон для связи: +7(922) 789-36-65</p></div>
+ <div class="footer__iteam-pochta"><p>Почта: alex86russs@mail.ru</P></div>
+  <div class="footer__iteam-icone"><a href="https://vk.com/somebody0iq"></div>
+    <img src="vk.png" alt="вк" style="height: 50px;" >
+  </a></div>
+<section id="reservation-info"></section>
+<script src="./tutu.js"></script>
+</footer>
+</html>
